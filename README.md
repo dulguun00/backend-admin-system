@@ -4,6 +4,9 @@ Internal backend platform concept centered around user management, reporting, an
 
 This repository is structured as a portfolio demo for internal tools and operations systems. It presents a simple but credible backend API for managing users, enforcing role-based access, and exposing reporting endpoints that reflect common admin platform requirements.
 
+Portfolio cover reference:
+`../../assets/admin-cover.svg`
+
 ## Portfolio Highlights
 
 - User listing and detail endpoints
