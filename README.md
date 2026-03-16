@@ -1,6 +1,16 @@
 # Backend Admin System
 
-Internal backend platform concept centered around user management, reporting, and admin workflows.
+Internal backend platform concept centered around user management, reporting, and role-aware admin workflows.
+
+This repository is structured as a portfolio demo for internal tools and operations systems. It presents a simple but credible backend API for managing users, enforcing role-based access, and exposing reporting endpoints that reflect common admin platform requirements.
+
+## Portfolio Highlights
+
+- User listing and detail endpoints
+- Reporting summary endpoint
+- Basic role-aware access checks
+- Internal tools positioning for real business use
+- FastAPI demo structure with Docker and Makefile support
 
 ## Suggested Features
 
@@ -26,6 +36,14 @@ Internal backend platform concept centered around user management, reporting, an
 - `requirements.txt`: demo API dependencies
 - `Makefile`: shortcut commands for install and run
 - `Dockerfile`: containerized demo setup
+
+## Demo Flow
+
+1. Verify the API with `GET /health`
+2. Show restricted user management endpoints through `/users`
+3. Show individual user lookup through `/users/{user_id}`
+4. Show reporting access through `/reports/summary`
+5. Explain how the same structure can grow into a larger internal system
 
 ## Upwork Positioning
 
@@ -53,3 +71,7 @@ Docker demo:
 - Explain role-based access and admin actions as the next layer
 - Position the system as an internal operations tool
 - Emphasize reporting visibility and process control
+
+## Why This Project Works In A Portfolio
+
+Many companies need internal software more than customer-facing products. This project helps you present yourself as someone who can build operational systems for staff, admins, and managers, not just public websites or generic CRUD apps.
